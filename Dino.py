@@ -1,13 +1,17 @@
 import pygame
 import random
+from os import system
 
 pygame.init()
+system("title Консоль типо") #Обыччно я менял название окна в bat файле, сейчас придумал такую штуку
 
 #Настройки окна
 screen_width = 1200
 screen_height = 800
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Dino by Parad1st") #Название
+print('Это моя первая игра на Python. Скоро сделаю нормально!')
+print('https://github.com/Parad1st/Chrome-Dino')
 
 #Штука снизу
 white = (255, 255, 255)
